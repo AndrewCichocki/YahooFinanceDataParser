@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49357F631B2A4B8600392B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49357F621B2A4B8600392B9C /* AppDelegate.swift */; };
+		49357F651B2A4B8600392B9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49357F641B2A4B8600392B9C /* ViewController.swift */; };
+		49357F681B2A4B8600392B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49357F661B2A4B8600392B9C /* Main.storyboard */; };
+		49357F6A1B2A4B8600392B9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49357F691B2A4B8600392B9C /* Images.xcassets */; };
+		49357F6D1B2A4B8600392B9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49357F6B1B2A4B8600392B9C /* LaunchScreen.xib */; };
+		49357F791B2A4B8600392B9C /* YahooFinanceDataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49357F781B2A4B8600392B9C /* YahooFinanceDataParserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49357F731B2A4B8600392B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49357F551B2A4B8600392B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49357F5C1B2A4B8600392B9C;
+			remoteInfo = YahooFinanceDataParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49357F5D1B2A4B8600392B9C /* YahooFinanceDataParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooFinanceDataParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49357F611B2A4B8600392B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49357F621B2A4B8600392B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49357F641B2A4B8600392B9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49357F671B2A4B8600392B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49357F691B2A4B8600392B9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49357F6C1B2A4B8600392B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49357F721B2A4B8600392B9C /* YahooFinanceDataParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooFinanceDataParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49357F771B2A4B8600392B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49357F781B2A4B8600392B9C /* YahooFinanceDataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinanceDataParserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49357F5A1B2A4B8600392B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49357F6F1B2A4B8600392B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49357F541B2A4B8600392B9C = {
+			isa = PBXGroup;
+			children = (
+				49357F5F1B2A4B8600392B9C /* YahooFinanceDataParser */,
+				49357F751B2A4B8600392B9C /* YahooFinanceDataParserTests */,
+				49357F5E1B2A4B8600392B9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49357F5E1B2A4B8600392B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49357F5D1B2A4B8600392B9C /* YahooFinanceDataParser.app */,
+				49357F721B2A4B8600392B9C /* YahooFinanceDataParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49357F5F1B2A4B8600392B9C /* YahooFinanceDataParser */ = {
+			isa = PBXGroup;
+			children = (
+				49357F621B2A4B8600392B9C /* AppDelegate.swift */,
+				49357F641B2A4B8600392B9C /* ViewController.swift */,
+				49357F661B2A4B8600392B9C /* Main.storyboard */,
+				49357F691B2A4B8600392B9C /* Images.xcassets */,
+				49357F6B1B2A4B8600392B9C /* LaunchScreen.xib */,
+				49357F601B2A4B8600392B9C /* Supporting Files */,
+			);
+			path = YahooFinanceDataParser;
+			sourceTree = "<group>";
+		};
+		49357F601B2A4B8600392B9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49357F611B2A4B8600392B9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49357F751B2A4B8600392B9C /* YahooFinanceDataParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				49357F781B2A4B8600392B9C /* YahooFinanceDataParserTests.swift */,
+				49357F761B2A4B8600392B9C /* Supporting Files */,
+			);
+			path = YahooFinanceDataParserTests;
+			sourceTree = "<group>";
+		};
+		49357F761B2A4B8600392B9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49357F771B2A4B8600392B9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49357F5C1B2A4B8600392B9C /* YahooFinanceDataParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49357F7C1B2A4B8600392B9C /* Build configuration list for PBXNativeTarget "YahooFinanceDataParser" */;
+			buildPhases = (
+				49357F591B2A4B8600392B9C /* Sources */,
+				49357F5A1B2A4B8600392B9C /* Frameworks */,
+				49357F5B1B2A4B8600392B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YahooFinanceDataParser;
+			productName = YahooFinanceDataParser;
+			productReference = 49357F5D1B2A4B8600392B9C /* YahooFinanceDataParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49357F711B2A4B8600392B9C /* YahooFinanceDataParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49357F7F1B2A4B8600392B9C /* Build configuration list for PBXNativeTarget "YahooFinanceDataParserTests" */;
+			buildPhases = (
+				49357F6E1B2A4B8600392B9C /* Sources */,
+				49357F6F1B2A4B8600392B9C /* Frameworks */,
+				49357F701B2A4B8600392B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49357F741B2A4B8600392B9C /* PBXTargetDependency */,
+			);
+			name = YahooFinanceDataParserTests;
+			productName = YahooFinanceDataParserTests;
+			productReference = 49357F721B2A4B8600392B9C /* YahooFinanceDataParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49357F551B2A4B8600392B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Andrew Cichocki";
+				TargetAttributes = {
+					49357F5C1B2A4B8600392B9C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					49357F711B2A4B8600392B9C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 49357F5C1B2A4B8600392B9C;
+					};
+				};
+			};
+			buildConfigurationList = 49357F581B2A4B8600392B9C /* Build configuration list for PBXProject "YahooFinanceDataParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49357F541B2A4B8600392B9C;
+			productRefGroup = 49357F5E1B2A4B8600392B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49357F5C1B2A4B8600392B9C /* YahooFinanceDataParser */,
+				49357F711B2A4B8600392B9C /* YahooFinanceDataParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49357F5B1B2A4B8600392B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49357F681B2A4B8600392B9C /* Main.storyboard in Resources */,
+				49357F6D1B2A4B8600392B9C /* LaunchScreen.xib in Resources */,
+				49357F6A1B2A4B8600392B9C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49357F701B2A4B8600392B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49357F591B2A4B8600392B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49357F651B2A4B8600392B9C /* ViewController.swift in Sources */,
+				49357F631B2A4B8600392B9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49357F6E1B2A4B8600392B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49357F791B2A4B8600392B9C /* YahooFinanceDataParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49357F741B2A4B8600392B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49357F5C1B2A4B8600392B9C /* YahooFinanceDataParser */;
+			targetProxy = 49357F731B2A4B8600392B9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49357F661B2A4B8600392B9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49357F671B2A4B8600392B9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49357F6B1B2A4B8600392B9C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49357F6C1B2A4B8600392B9C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49357F7A1B2A4B8600392B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49357F7B1B2A4B8600392B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49357F7D1B2A4B8600392B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YahooFinanceDataParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49357F7E1B2A4B8600392B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YahooFinanceDataParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49357F801B2A4B8600392B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YahooFinanceDataParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YahooFinanceDataParser.app/YahooFinanceDataParser";
+			};
+			name = Debug;
+		};
+		49357F811B2A4B8600392B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YahooFinanceDataParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YahooFinanceDataParser.app/YahooFinanceDataParser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49357F581B2A4B8600392B9C /* Build configuration list for PBXProject "YahooFinanceDataParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49357F7A1B2A4B8600392B9C /* Debug */,
+				49357F7B1B2A4B8600392B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49357F7C1B2A4B8600392B9C /* Build configuration list for PBXNativeTarget "YahooFinanceDataParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49357F7D1B2A4B8600392B9C /* Debug */,
+				49357F7E1B2A4B8600392B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49357F7F1B2A4B8600392B9C /* Build configuration list for PBXNativeTarget "YahooFinanceDataParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49357F801B2A4B8600392B9C /* Debug */,
+				49357F811B2A4B8600392B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49357F551B2A4B8600392B9C /* Project object */;
+}
