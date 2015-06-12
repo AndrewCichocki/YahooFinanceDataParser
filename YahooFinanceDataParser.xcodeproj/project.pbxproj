@@ -13,6 +13,7 @@
 		49357F6A1B2A4B8600392B9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49357F691B2A4B8600392B9C /* Images.xcassets */; };
 		49357F6D1B2A4B8600392B9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49357F6B1B2A4B8600392B9C /* LaunchScreen.xib */; };
 		49357F791B2A4B8600392B9C /* YahooFinanceDataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49357F781B2A4B8600392B9C /* YahooFinanceDataParserTests.swift */; };
+		49357F851B2A4C1D00392B9C /* ParseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49357F841B2A4C1D00392B9C /* ParseData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		49357F721B2A4B8600392B9C /* YahooFinanceDataParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooFinanceDataParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49357F771B2A4B8600392B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49357F781B2A4B8600392B9C /* YahooFinanceDataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinanceDataParserTests.swift; sourceTree = "<group>"; };
+		49357F841B2A4C1D00392B9C /* ParseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,10 @@
 		49357F5F1B2A4B8600392B9C /* YahooFinanceDataParser */ = {
 			isa = PBXGroup;
 			children = (
-				49357F621B2A4B8600392B9C /* AppDelegate.swift */,
 				49357F641B2A4B8600392B9C /* ViewController.swift */,
+				49357F841B2A4C1D00392B9C /* ParseData.swift */,
 				49357F661B2A4B8600392B9C /* Main.storyboard */,
-				49357F691B2A4B8600392B9C /* Images.xcassets */,
-				49357F6B1B2A4B8600392B9C /* LaunchScreen.xib */,
-				49357F601B2A4B8600392B9C /* Supporting Files */,
+				49357F871B2A540400392B9C /* Other */,
 			);
 			path = YahooFinanceDataParser;
 			sourceTree = "<group>";
@@ -110,6 +110,17 @@
 				49357F771B2A4B8600392B9C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49357F871B2A540400392B9C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				49357F621B2A4B8600392B9C /* AppDelegate.swift */,
+				49357F691B2A4B8600392B9C /* Images.xcassets */,
+				49357F6B1B2A4B8600392B9C /* LaunchScreen.xib */,
+				49357F601B2A4B8600392B9C /* Supporting Files */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				49357F651B2A4B8600392B9C /* ViewController.swift in Sources */,
 				49357F631B2A4B8600392B9C /* AppDelegate.swift in Sources */,
+				49357F851B2A4C1D00392B9C /* ParseData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +421,7 @@
 				49357F7E1B2A4B8600392B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49357F7F1B2A4B8600392B9C /* Build configuration list for PBXNativeTarget "YahooFinanceDataParserTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				49357F811B2A4B8600392B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
